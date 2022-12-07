@@ -10,7 +10,9 @@
     <title>thomas watson</title>
 </head>	
 <body>
+    <header>
 	<h1> Welcome to Thomas J. Watson website.Founder of IBM</h1>
+    
 	
 	<nav>
 		<li><a href="#introduction">introdction</a></li>
@@ -18,8 +20,9 @@
         <li><a href="#famous attribution">famous attribution</a></a></li>
 
     </nav>
+    </header>
 
-
+    <main>
     <div id="introduction">
 	<h2>introduction</h2>
 	<p> <strong >Thomas John Watson Sr</strong> (February 17, 1874 – June 19, 1956) was an American businessman who served as the chairman and CEO of IBM.
@@ -80,7 +83,12 @@ Watson married Jeanette Kittredge, from a prominent Dayton, Ohio railroad family
     <p>One of the first attributions is in the German magazine Der Spiegel of May 22, 1965, stating that IBM boss Thomas Watson had not been interested in the new machines initially, and when the first commercial calculation behemoths appeared in the early 1950s, filling whole floors with thousands of heat generating vacuum tubes, he estimated the demand by the US economy at a maximum of five</p>
     
 </div>
-
-<link rel="profile" href="http://gmpg.org/xfn/11">
+</main>
 </body>
+<footer>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<a href="https://en.wikipedia.org/wiki/Thomas_J._Watson" traget="_blank">about thomas</a>
+
+</footer>
+
 </html>
