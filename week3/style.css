@@ -5,8 +5,16 @@ h1 {
     margin: 10px;
     font-family: 'Times New Roman', Times, serif;
     }
-    p1{
-    color: darksalmon;
+    h2 {
+        background-color: blanchedalmond;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        }
+    p{
+
+    color: black;
     margin: 10px;
     font-family: 'Times New Roman', Times, serif;
     }
