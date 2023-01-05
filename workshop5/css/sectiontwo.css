@@ -12,7 +12,7 @@ body {
 
 .container {
     display: flex;
-    background-color: darkolivegreen;
+    background-color: rgb(199, 231, 143);
     
 }
 .right-column{
@@ -31,8 +31,8 @@ body {
 }
 .fig{
   
-  width:100%;
-  margin-left: 300px;
+  width:50%;
+  
   background-color: darkolivegreen;
   
 }
