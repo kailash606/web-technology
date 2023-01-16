@@ -1,30 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Moon+Dance&family=Roboto+Mono:wght@500&family=Signika+Negative&family=Work+Sans&display=swap');
 
 *{
-    background-color: #FBC40E;   ;
+    background-color:;
+}
+.con{
+    background-color:rgb(175, 227, 248);
+    display: flex;
+    margin: 3px;
+    padding: 0%;
+
 }
 .nav{
+    
     font-size: 20px;
     font-family: 'Roboto Mono', monospace;
     text-transform: capitalize;
-    border: #33bd96;
+    border:4px solid black;
+    box-sizing: border-box;
+    
     height: 60px;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 2%;
+    align-items: 2% left;
+    
 }
 .logo{
+    
     margin-right: 10px;
-    background-color: #FBC40E;
-    object-fit: cover;
-   width: 200px;
-   height: 300px;
+   
+    width: 10%;
+    height: auto;
+    margin-top: 0%;
    
     
 }
 
 .container{
  
-
+    background-color: #FFFF51;;
     display: flex;
-    border: 20px;
+    border: 2px;
     
 }
 .photo{
@@ -32,17 +48,31 @@
     width: auto;
     border-radius: 50%;
     margin-top: 5%;
+    margin: 5px;
+    padding: 3px;
 
     
 }
 .h1{
     margin-left: 5%;
-    font-size: 3em;
+    font-size: 2em;
     font-family: 'Signika Negative';
     text-transform: uppercase;
     color: #33bd96;
     text-shadow:5px 5px black ;
-    margin-top: 10%;
-    
-    
+    margin-top: 5%;
+}
+.p{
+    text-shadow: none;
+}
+.footer{
+    background-color: #eb7f4d;
+    margin:1px;
+    padding: 1px;
+}
+.foot{
+    font-size: 20px;
+    margin-left: 10%;
+    text-transform: capitalize;
+    color: black;
 }
