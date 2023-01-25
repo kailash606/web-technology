@@ -9,31 +9,54 @@
 </head>
 <body>
     <div class="con">
-        <div class="nav">
-         <nav>
-            <a href="index.html">home</a>
-            <a href="about.html">about</a>
-            <a href="">hobbies</a>
-            <a href="photographs.html">photographs</a>
-            <a href="">contact </a>
-    
-         </nav>
-         </div>
-         <div class="logo">
+        <div class="logo">
             <h1>
                 <img src="photos/HEHE (3).png" alt="logo">
          
          </h1>
          </div>
+        <div class="nav">
+         <nav>
+            <a href="home.html">home</a>
+            <a href="index.html">about</a>
+            <a href="hobbies.html">hobbies</a>
+            <a href="photographs.html">photographs</a>
+            <a href="">contact </a>
+    
+         </nav>
          </div>
+         </div>
+         <div class="h1">
+            <h1>these are the some of the photographs that i have clicked</h1>
+            <h2 class="h2">be patient to watch it will slide itself!</h2>
+         </div>
+   
+    <img name = "slider" width=40% height=auto>
+    <script>
+        var i = 0;
+        var images = [];
+        var time = 3000;
 
-    <div class="container">
-        <div class="photo1">
-            <img src="photos/first.png.png">
-        </div>
-        <div class="photo2">
-            <
-        </div>
-    </div>
+        images[0] = 'photos/1.png.JPG';
+        images[1] = 'photos/dog.png.JPG';
+        images[2] = 'photos/tress.jpg';
+        images[3]='photos/temple.png.jpg';
+        images[4]='photos/pond.jpg';
+        images[5]='photos/nature.jpg';
+
+
+        function slideshow(){
+            document.slider.src = images[i];
+            if(i<images.length-1){
+               i++;
+            }else{
+                i=0;
+            }
+
+            setTimeout("slideshow()",time);
+        }
+
+        window.onload = slideshow;
+    </script>
 </body>
 </html>
