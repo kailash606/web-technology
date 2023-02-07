@@ -25,6 +25,7 @@
 }
 a:hover {
   color: whitesmoke;
+
 }
 .logo{
     
@@ -34,10 +35,16 @@ a:hover {
     height: auto;
     margin-top: 0%;
     opacity:50%;
-   
-    
 }
-.ka{
+.h1{
+    font-family: 'Moon Dance', cursive;
+    font-size: 40px;
+    color: bisque;
+    background-color: black;
+    margin: 20px;
+    padding: 30px;
+}
+.thanks{
     position: relative;
     background-color: black;
     text-align: center;
@@ -47,27 +54,8 @@ a:hover {
 }
 .text{
     position: absolute;
-    margin-left: 27%;
-    margin-top: 20%;
+    margin-left: 15%;
+    margin-top: 10%;
     font-size: 30px;
     text-transform: uppercase;
 }
-.footer{
-    background-color: black;
-    color: beige;
-    margin: 2px;
-    padding: 40px;
-    text-transform: capitalize;
-    font-size: 30px;
-    text-align: center;
-    
-  }
-  .class{
-    word-spacing: 20px;
-    font-size: 30px;
-  }
-  .follow{
-    word-spacing: 30px;
-    font-size: 30px;
-  }
-  
