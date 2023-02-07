@@ -59,3 +59,24 @@ a:hover {
     font-size: 30px;
     text-transform: uppercase;
 }
+.footer{
+    width: 100%;
+      background-color: black;
+      color: beige;
+      margin: 2px;
+      padding: 40px;
+      text-transform: capitalize;
+      font-size: 30px;
+      text-align: center;
+      border: 2px solid whitesmoke;
+      
+    }
+    .class{
+      word-spacing: 20px;
+      font-size: 30px;
+    }
+    .follow{
+      word-spacing: 30px;
+      font-size: 30px;
+    }
+    

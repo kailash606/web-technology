@@ -40,7 +40,7 @@ padding: 10px;
 .h1{
     width: 100%;
     text-transform: capitalize;
-    color: rgb(217, 238, 231);
+    color: rgb(215, 227, 221);
     word-spacing:20px;
     margin-left: 20%;
 
@@ -50,6 +50,8 @@ padding: 10px;
 * {
    
     width: 100%;
+    overflow-x: hidden;
+    background-color: black;
     
     
     box-sizing:border-box}
@@ -61,6 +63,7 @@ padding: 10px;
   position: relative;
   margin: auto;
   background-color: black;
+
 }
 
 /* Hide the images by default */
@@ -99,7 +102,7 @@ padding: 10px;
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 30px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
