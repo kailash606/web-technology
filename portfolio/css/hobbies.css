@@ -7,19 +7,28 @@
     padding: 0%;
 
 }
+
 .nav{
     
-    font-size: 30px;
-    font-family: 'Roboto Mono', monospace;
-    text-transform: capitalize;
-    
-    
-    height: 60px;
-    width: 90%;
-    margin-top: 5%;
-    margin-left: 30%;
-    word-spacing: 20px;
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: capitalize;
+      
+  border: 2px solid seashell;
+  height: 60px;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 10%;
+  word-spacing: 20px;
+ text-align: right;
+  padding: 20px;
+  
+  
 }
+a:hover {
+color: whitesmoke;
+}
+
 .logo{
     
     margin-right: 10px;
@@ -79,5 +88,24 @@
     height: 960px;
     overflow: hidden;
   }
+  .footer{
+    background-color: black;
+    color: beige;
+    margin: 2px;
+    padding: 40px;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .class{
+    word-spacing: 20px;
+    font-size: 30px;
+  }
+  .follow{
+    word-spacing: 30px;
+    font-size: 30px;
+  }
+  
 
 

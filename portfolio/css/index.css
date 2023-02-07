@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Moon+Dance&family=Roboto+Mono:wght@500&family=Signika+Negative&family=Work+Sans&display=swap');
 
-*{
-    background-color:;
-}
+
 .con{
     background-color:black;
     display: flex;
@@ -11,18 +9,23 @@
 
 }
 .nav{
-    
-    font-size: 30px;
-    font-family: 'Roboto Mono', monospace;
-    text-transform: capitalize;
-    
-    
-    height: 60px;
-    width: 90%;
-    margin-top: 5%;
-    margin-left: 30%;
-    word-spacing: 20px;
-    
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: capitalize;
+      
+  border: 2px solid seashell;
+  height: 60px;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 10%;
+  word-spacing: 20px;
+ text-align: right;
+  padding: 20px;
+  
+  
+}
+a:hover {
+color: whitesmoke;
 }
 .logo{
     
@@ -75,3 +78,22 @@
     padding: 10%;
     border: 20px silver;
 }
+.footer{
+    background-color: black;
+    color: beige;
+    margin: 2px;
+    padding: 40px;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .class{
+    word-spacing: 20px;
+    font-size: 30px;
+  }
+  .follow{
+    word-spacing: 30px;
+    font-size: 30px;
+  }
+  
